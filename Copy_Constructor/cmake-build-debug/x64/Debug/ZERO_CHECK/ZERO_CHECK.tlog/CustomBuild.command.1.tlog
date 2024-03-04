@@ -1,0 +1,10 @@
+^C:\USERS\АЛЕКСЕЙ\CLIONPROJECTS\STUDY\COPY_CONSTRUCTOR\CMAKE-BUILD-DEBUG\CMAKEFILES\F1E26F7E558B95A5B5B299C071ED692D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -SC:/Users/Алексей/CLionProjects/Study/Copy_Constructor -BC:/Users/Алексей/CLionProjects/Study/Copy_Constructor/cmake-build-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Алексей/CLionProjects/Study/Copy_Constructor/cmake-build-debug/Copy_Constructor.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
